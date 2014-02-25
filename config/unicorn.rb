@@ -1,8 +1,9 @@
 working_directory "/vagrant"
-pid "vagrant/tmp/pids/unicorn.pids"
-stderr_path "/vagrant/log/unicorn.log"
-stdout_path "/vagrant/log/unicorn.log"
+rking_directory "/home/vagrant/test-project-deploy-tonym"
+pid "tmp/pids/unicorn.pids"
+stderr_path "log/unicorn.log"
+stdout_path "log/unicorn.log"
 
-listen "/tmp/unicorn.shopper.sock"
+listen "/home/vagrant/test-project-deploy-tonym/tmp/sockets/unicorn.sock", :backlog => 64
 worker_processes 2
 timeout 30
