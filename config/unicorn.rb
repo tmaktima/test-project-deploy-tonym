@@ -1,5 +1,4 @@
 working_directory "/vagrant"
-rking_directory "/home/vagrant/test-project-deploy-tonym"
 pid "tmp/pids/unicorn.pids"
 stderr_path "log/unicorn.log"
 stdout_path "log/unicorn.log"
